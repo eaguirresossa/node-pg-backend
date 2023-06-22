@@ -45,7 +45,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY4NzQ0MDE2MSwiZXhwIjoxNjg3NDQwNDYxfQ.8eGx3ackzkYtcZDg-NUvMJV3K_34WaOtLEPvl_nr79w",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY4NzQ2NjYzNSwiZXhwIjoxNjg3NDY2OTM1fQ.a34a5RGfdVNeaz39RliEJmZ7rIH7721-o4ui1S2eNcA",
 						"type": "text"
 					}
 				],
@@ -74,7 +74,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY4NzQ0MDE2MSwiZXhwIjoxNjg3NDQwNDYxfQ.8eGx3ackzkYtcZDg-NUvMJV3K_34WaOtLEPvl_nr79w",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY4NzQ2NjYzNSwiZXhwIjoxNjg3NDY2OTM1fQ.a34a5RGfdVNeaz39RliEJmZ7rIH7721-o4ui1S2eNcA",
 						"type": "text"
 					}
 				],
@@ -101,13 +101,13 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY4NzQ0MDkwOSwiZXhwIjoxNjg3NDQxMjA5fQ.CMoP-aO4_Rcl_zGiWsDXvW7RtsfUK8gh90Zq_ULiKsc",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY4NzQ2NjYzNSwiZXhwIjoxNjg3NDY2OTM1fQ.a34a5RGfdVNeaz39RliEJmZ7rIH7721-o4ui1S2eNcA",
 						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"username\": \"dev\",\n  \"email\": \"dev@example.com\",\n  \"pwd\": \"456123789\",\n  \"token\": \"desdePostman2\"\n}",
+					"raw": "{\n  \"username\": \"dev2\",\n  \"email\": \"dev2@example.com\",\n  \"pwd\": \"488123789\",\n  \"token\": \"desdePostman3\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -160,6 +160,33 @@
 						"api",
 						"usuarios",
 						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "06-usuariosEliminar",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY4NzQ2Njc3MiwiZXhwIjoxNjg3NDY3MDcyfQ.ifbyAftlsdDp60VbRN6UW8qXAEtVVVq4uVZAIC96KQc",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/api/usuarios/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"usuarios",
+						"3"
 					]
 				}
 			},
