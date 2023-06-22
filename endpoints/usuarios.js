@@ -22,7 +22,7 @@ const pool = new Pool({
 // Middleware para verificar el token de autenticación
 function verifyToken(req, res, next) {
   const tokenAuth = req.headers.authorization;
-  console.log(tokenAuth);
+
   if (!tokenAuth) {
     return res.status(401).json({ error: "Token no proporcionado" });
   }

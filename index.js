@@ -26,13 +26,13 @@ app.use(express.static("public"));
 //Cargamos Ruta Usuarios
 const usuariosRouter = require("./endpoints/usuarios");
 
+// Usar el middleware de usuariosRouter para las rutas bajo /api
+app.use("/api", usuariosRouter);
+
 //Control de rutas no existentes
 app.get("*", (req, res) => {
   res.sendFile(__dirname + "/public/404.html");
 });
-
-// Usar el middleware de usuariosRouter para las rutas bajo /api
-app.use("/api", usuariosRouter);
 
 // Iniciar el servidor
 app.listen(port, () => {

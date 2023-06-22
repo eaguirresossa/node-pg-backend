@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index"
+    "dev": "nodemon index",
+    "docker": "cd docker && docker compose up -d"
   },
   "keywords": [],
   "author": "Edison Aguirre Sossa - eaguirresossa@gmail.com",
