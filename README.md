@@ -12,11 +12,17 @@ Al finalizar de descargar todas las dependiencias, podemos iniciar el proyecto e
 
     npm run dev
 
+Ahora accedemos a la página principal del proyecto
+
+    http://localhost:3000/
+
+![Captura Documentación API](./public/assets/img/main.png)
+
 Para acceder a la documentación en Swagger de la API, debemos acceder a la siguiente URL
 
     http://localhost:3000/api/docs/
 
-![Captura Documentación API](swagger.png)
+![Captura Documentación API](./public/assets/img/swagger.png)
 
 ## Directorios
 
@@ -42,15 +48,14 @@ Dentro de este directorio se encuentra el archivo **node-pg-backend.postman_coll
 2.  **02-usuariosListar**: Petición **GET** que permite obtener el listado completo de usuarios.
 3.  **03-usuariosListarId**: Petición **GET** que permite obtener la información de un usuario consultando por su ID.
 4.  **04-usuariosCrear**: Petición **POST** que permite crear un usuario.
-5.  **05-usuariosEditar**: Petición **PUT**que permite editar toda la información de un usuario basado con su ID.
+5.  **05-usuariosEditar**: Petición **PUT** que permite editar toda la información de un usuario basado con su ID.
+6.  **06-usuariosEliminar**: Petición **DELETE** que permite eliminar un usuario.
 
 ### 4. SQL
 
 Dentro de este directorio se encuentra el archivo **usuarios.sql** con la estructura básica de la tabla usuarios. Esta estructura es muy básica, pero sirve como base para entender el desarrollo del backend.
 
 ## Variables de entorno
-
-SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
 
 | VARIABLE    | VALOR                      | OBSERVACIÓN                               |
 | ----------- | -------------------------- | ----------------------------------------- |
