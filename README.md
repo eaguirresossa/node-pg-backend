@@ -27,7 +27,8 @@ Dentro de este directorio esta el archivo para la ejecución de PostgreSQL desde
      docker compose up -d
 
 Antes de ejecutar el comando anterior, es necesario crear un volumen en docker que tenga como nombre **postgres-db**.
-docker volume create postgres-db
+
+     docker volume create postgres-db
 
 ### 2. endpoints
 
